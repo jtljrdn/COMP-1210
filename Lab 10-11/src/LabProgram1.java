@@ -20,7 +20,7 @@ public class LabProgram1 {
     public static void main(String[] args) {
         Scanner scnr = new Scanner(System.in);
         int[] userValues = new int[4];
-        int[] newArray = new int[4];
+        int[] newArray;
         for (int i = 0; i < userValues.length; i++) {
             userValues[i] = scnr.nextInt();
         }
